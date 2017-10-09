@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-08 20:38+0200\n"
+"PO-Revision-Date: 2017-10-08 20:46+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+
+#: number_echoer.py:21
+msgid "Usage: {} <number>"
+msgstr "Verwendung: {nummer} "
+
+#: number_echoer.py:31
+msgid ""
+"Entered number \"{}\" is not in allowed range. Numbers in range <0, 10^12> "
+"can be entered. "
+msgstr ""
+"Die eingegebene Nummer \"{}\" ist nicht zulässig. Zahlen im Bereich <0, 10 "
+"^ 12> können eingegeben werden."
+
+#: number_echoer.py:41
+msgid "one hundred"
+msgstr "einhundert"
+
+#: number_echoer.py:42
+msgid "two hundred"
+msgstr "zweihundert"
+
+#: number_echoer.py:43
+msgid "three hundred"
+msgstr "dreihundert"
+
+#: number_echoer.py:44
+msgid "four hundred"
+msgstr "vierhundert"
+
+#: number_echoer.py:45
+msgid "five hundred"
+msgstr "fünfhundert"
+
+#: number_echoer.py:46
+msgid "six hundred"
+msgstr "sechshundert"
+
+#: number_echoer.py:47
+msgid "seven hundred"
+msgstr "siebenhundert"
+
+#: number_echoer.py:48
+msgid "eight hundred"
+msgstr "achthundert"
+
+#: number_echoer.py:49
+msgid "nine hundred"
+msgstr "neunhundert"
+
+#: number_echoer.py:53
+msgid "twenty"
+msgstr "zwanzig"
+
+#: number_echoer.py:54
+msgid "thirty"
+msgstr "dreißig"
+
+#: number_echoer.py:55
+msgid "fourty"
+msgstr "vierzig"
+
+#: number_echoer.py:56
+msgid "fifty"
+msgstr "fünfzig"
+
+#: number_echoer.py:57
+msgid "sixty"
+msgstr "sechzig"
+
+#: number_echoer.py:58
+msgid "seventy"
+msgstr "siebzig"
+
+#: number_echoer.py:59
+msgid "eighty"
+msgstr "achtzig"
+
+#: number_echoer.py:60
+msgid "ninety"
+msgstr "neunzig"
+
+#: number_echoer.py:64
+msgid "one"
+msgstr "ein"
+
+#: number_echoer.py:65
+msgid "two"
+msgstr "zwei"
+
+#: number_echoer.py:66
+msgid "three"
+msgstr "drei"
+
+#: number_echoer.py:67
+msgid "four"
+msgstr "vier"
+
+#: number_echoer.py:68
+msgid "five"
+msgstr "fünf"
+
+#: number_echoer.py:69
+msgid "six"
+msgstr "sechs"
+
+#: number_echoer.py:70
+msgid "seven"
+msgstr "sieben"
+
+#: number_echoer.py:71
+msgid "eight"
+msgstr "acht"
+
+#: number_echoer.py:72
+msgid "nine"
+msgstr "neun"
+
+#: number_echoer.py:73
+msgid "ten"
+msgstr "zehn"
+
+#: number_echoer.py:74
+msgid "eleven"
+msgstr "elf"
+
+#: number_echoer.py:75
+msgid "twelve"
+msgstr "zwölf"
+
+#: number_echoer.py:76
+msgid "thirteen"
+msgstr "dreizehn"
+
+#: number_echoer.py:77
+msgid "fourteen"
+msgstr "vierzehn"
+
+#: number_echoer.py:78
+msgid "fifteen"
+msgstr "fünfzehn"
+
+#: number_echoer.py:79
+msgid "sixteen"
+msgstr "sechszehn"
+
+#: number_echoer.py:80
+msgid "seventeen"
+msgstr "siebzehn"
+
+#: number_echoer.py:81
+msgid "eighteen"
+msgstr "achtzehn"
+
+#: number_echoer.py:82
+msgid "nineteen"
+msgstr "neunzehn"
+
+#: number_echoer.py:85
+msgid "zero"
+msgstr "zero"
+
+#: number_echoer.py:108
+msgid "thousand"
+msgid_plural "thousand"
+msgstr[0] "tausend"
+msgstr[1] "tausende"
+
+#: number_echoer.py:109
+msgid "million"
+msgid_plural "million"
+msgstr[0] "million"
+msgstr[1] "milionen"
+
+#: number_echoer.py:110
+msgid "billion"
+msgid_plural "billion"
+msgstr[0] "milliarde"
+msgstr[1] "milliarden"
+
+#: number_echoer.py:111
+msgid "trillion"
+msgid_plural "trillion"
+msgstr[0] "billion"
+msgstr[1] "billionen"
+
+#. numbers in <20, 99> range
+#: number_echoer.py:136
+#, python-brace-format
+msgid "{tens} {ones}"
+msgstr "{ones}und{tens}"
+
+#: number_echoer.py:185
+msgid "Integer number is required as an input. "
+msgstr "Integer-Nummer wird als Eingabe benötigt."
+
+#: number_echoer.py:210
+msgid "Invalid number of arguments. "
+msgstr "Ungültige Anzahl von Argumenten."

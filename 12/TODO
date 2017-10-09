@@ -1,0 +1,19 @@
+- Fix gender in some languages, e.g. "dva miliardy".
+  This can be achieved using either context aware gettext (not available
+  in clean Python yet, available in e.g. Django), or by using a workaround -
+  translating affected strings manually (translating "two billion" as one
+  string instead of splitting it to "two" and "billion", in the same way
+  hundreds are translated in the program)
+
+  https://bugs.python.org/issue2504 - Add gettext.pgettext() and variants
+  support
+
+- Fix unnecessary spaces in e.g. German
+
+- tests, including translations
+
+- setup.py
+  - classic setup + automatic message catalogs compilation ('babel' package
+  could help)
+
+- docs
