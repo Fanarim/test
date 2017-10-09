@@ -6,7 +6,7 @@ Usage
 To run the program, follow the steps below:
 ::
   # go to the program's directory
-  cd 12/number_echoer/
+  cd number_echoer/
 
   # Generate message catalogs:
   for LANGUAGE in `ls locale/ | grep -v .pot`; do msgfmt locale/$LANGUAGE/LC_MESSAGES/number_echoer.po -o locale/$LANGUAGE/LC_MESSAGES/number_echoer.mo; done;

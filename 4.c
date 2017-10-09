@@ -4,21 +4,7 @@
 
 
 int main(){
-  // 2 variables
-  char str[] = "ABCDEFG";
-
-  int tmp, i;
-
-  for (i = 0; i < strlen(str)/2; i++){
-      tmp = str[i];
-      str[i] = str[strlen(str)-i-1];
-      str[strlen(str)-i-1] = tmp;
-  }
-
-  printf("%s\n", str);
-
-
-  // not exactly "in place", "ABCDEFG" is read-only string literal
+  // not exactly "in place", read-only string literal
   // 3 variables
   char* str2 = "ABCDEFG";
   int length = strlen(str2);
@@ -31,6 +17,21 @@ int main(){
 
   str2 = reversed;
   printf("%s\n", str2);
+
+
+  // string array, 2 variables
+  char str[] = "ABCDEFG";
+
+  int tmp, i;
+
+  for (i = 0; i < strlen(str)/2; i++){
+      tmp = str[i];
+      str[i] = str[strlen(str)-i-1];
+      str[strlen(str)-i-1] = tmp;
+  }
+
+  printf("%s\n", str);
+
 
   return 0;
 }
